@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "category": "Fałszywa faktura",
+    "description": "Atak polega na podszyciu się pod dostawcę i nakłonieniu użytkownika do zapłaty zaległej faktury.",
+    "examples": [
+      "Prosimy o pilne uregulowanie należności",
+      "W załączniku przesyłamy zaległą fakturę za ubiegły miesiąc",
+      "Przypomnienie o zaległości płatniczej. Prosimy o natychmiastową wpłatę."
+    ],
+    "risk": "high"
+  },
+  {
+    "id": 2,
+    "category": "Blokada konta bankowego",
+    "description": "Próba wyłudzenia poświadczeń logowania poprzez fałszywy alert o zablokowaniu dostępu do bankowości.",
+    "examples": [
+      "Wykryliśmy podejrzane logowanie. Twoje konto zostało tymczasowo zablokowane.",
+      "Zaloguj się na bezpiecznej stronie, aby potwierdzić swoją tożsamość i odblokować środki.",
+      "Autoryzacja odrzucona. Kliknij link, aby zaktualizować dane logowania do banku."
+    ],
+    "risk": "critical"
+  },
+  {
+    "id": 3,
+    "category": "Niedopłata za paczkę",
+    "description": "Wyłudzanie drobnych kwot oraz danych kart płatniczych pod pretekstem niedopłaty do przesyłki kurierskiej.",
+    "examples": [
+      "Twoja paczka została wstrzymana z powodu niedopłaty 1.50 PLN. Dopłać, aby wznowić dostawę.",
+      "Adres dostawy jest niepoprawny. Prosimy o pilną dopłatę i korektę danych wysyłkowych.",
+      "Kurier DHL: Brakująca kwota za dostarczenie paczki. Kliknij odnośnik."
+    ],
+    "risk": "high"
+  },
+  {
+    "id": 4,
+    "category": "Bezpieczna wiadomość",
+    "description": "Zwykłe, codzienne wiadomości od rodziny, znajomych lub współpracowników.",
+    "examples": [
+      "Zadzwoń do mnie jak będziesz mógł, mam pilną sprawę.",
+      "Kupiłem już bilety do kina na 20:00. Bądź proszę chwilę wcześniej pod kasami.",
+      "Cześć, przesyłam poprawioną prezentację na jutrzejsze spotkanie z klientem. Zerknij na to w wolnej chwili.",
+      "Dziękujemy za zakupy w naszym sklepie! Twoje zamówienie nr 9872 zostało pomyślnie opłacone i jest pakowane.",
+      "Paczka o numerze PL982374923 została przekazana do doręczenia. Kurier podejmie próbę kontaktu w godzinach 11:00-13:00.",
+      "Twój jednorazowy kod autoryzacyjny do zatwierdzenia przelewu to: 829103. Nigdy nie podawaj tego kodu osobom trzecim.",
+      "Alert RCB: Uwaga! Dzisiaj w nocy (16/17.07) prognozowane silne burze z gradem i porywisty wiatr. Unikaj otwartych przestrzeni.",
+      "Faktura VAT nr FV/2026/07/12 została wystawiona. Kwota do zapłaty zostanie pobrana automatycznie z Twojej karty płatniczej w dniu 20.07.2026.",
+      "Hej! Spóźnię się dzisiaj na obiad około 15 minut, bo utknęłam w korku na moście. Zacznijcie bez mnie.",
+      "Twoja rezerwacja stolika na nazwisko Kowalski w restauracji 'Pod Kasztanami' na godzinę 19:00 została potwierdzona."
+    ],
+    "risk": "none"
+  },
+  {
+    "id": 5,
+    "category": "Podszywanie się pod dostawców energii (PGE/Tauron/PGNiG)",
+    "description": "Atakujący informują o rzekomej nadpłacie, zaległości w opłatach lub planowanym odłączeniu prądu/gazu, podając link do fałszywego panelu logowania.",
+    "examples": [
+      "PGE: informujemy, że na państwa koncie znajduje się nadpłata w wysokości 800zl. Zwrotu można dokonać po zalogowaniu się na konto.",
+      "PGE: Na dzień dzisiejszy zaplanowano odłączenie energii elektrycznej. Prosimy o uregulowanie należności pod linkiem.",
+      "Tauron: Masz nieopłaconą fakturę. Brak wpłaty skutkuje odcięciem zasilania. Opłać teraz."
+    ],
+    "risk": "high"
+  }
+]

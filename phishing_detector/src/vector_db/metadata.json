@@ -1,0 +1,134 @@
+[
+  {
+    "category": "Fałszywa faktura",
+    "risk": "high",
+    "matched_example": "Prosimy o pilne uregulowanie należności",
+    "description": "Atak polega na podszyciu się pod dostawcę i nakłonieniu użytkownika do zapłaty zaległej faktury."
+  },
+  {
+    "category": "Fałszywa faktura",
+    "risk": "high",
+    "matched_example": "W załączniku przesyłamy zaległą fakturę za ubiegły miesiąc",
+    "description": "Atak polega na podszyciu się pod dostawcę i nakłonieniu użytkownika do zapłaty zaległej faktury."
+  },
+  {
+    "category": "Fałszywa faktura",
+    "risk": "high",
+    "matched_example": "Przypomnienie o zaległości płatniczej. Prosimy o natychmiastową wpłatę.",
+    "description": "Atak polega na podszyciu się pod dostawcę i nakłonieniu użytkownika do zapłaty zaległej faktury."
+  },
+  {
+    "category": "Blokada konta bankowego",
+    "risk": "critical",
+    "matched_example": "Wykryliśmy podejrzane logowanie. Twoje konto zostało tymczasowo zablokowane.",
+    "description": "Próba wyłudzenia poświadczeń logowania poprzez fałszywy alert o zablokowaniu dostępu do bankowości."
+  },
+  {
+    "category": "Blokada konta bankowego",
+    "risk": "critical",
+    "matched_example": "Zaloguj się na bezpiecznej stronie, aby potwierdzić swoją tożsamość i odblokować środki.",
+    "description": "Próba wyłudzenia poświadczeń logowania poprzez fałszywy alert o zablokowaniu dostępu do bankowości."
+  },
+  {
+    "category": "Blokada konta bankowego",
+    "risk": "critical",
+    "matched_example": "Autoryzacja odrzucona. Kliknij link, aby zaktualizować dane logowania do banku.",
+    "description": "Próba wyłudzenia poświadczeń logowania poprzez fałszywy alert o zablokowaniu dostępu do bankowości."
+  },
+  {
+    "category": "Niedopłata za paczkę",
+    "risk": "high",
+    "matched_example": "Twoja paczka została wstrzymana z powodu niedopłaty 1.50 PLN. Dopłać, aby wznowić dostawę.",
+    "description": "Wyłudzanie drobnych kwot oraz danych kart płatniczych pod pretekstem niedopłaty do przesyłki kurierskiej."
+  },
+  {
+    "category": "Niedopłata za paczkę",
+    "risk": "high",
+    "matched_example": "Adres dostawy jest niepoprawny. Prosimy o pilną dopłatę i korektę danych wysyłkowych.",
+    "description": "Wyłudzanie drobnych kwot oraz danych kart płatniczych pod pretekstem niedopłaty do przesyłki kurierskiej."
+  },
+  {
+    "category": "Niedopłata za paczkę",
+    "risk": "high",
+    "matched_example": "Kurier DHL: Brakująca kwota za dostarczenie paczki. Kliknij odnośnik.",
+    "description": "Wyłudzanie drobnych kwot oraz danych kart płatniczych pod pretekstem niedopłaty do przesyłki kurierskiej."
+  },
+  {
+    "category": "Bezpieczna wiadomość",
+    "risk": "none",
+    "matched_example": "Zadzwoń do mnie jak będziesz mógł, mam pilną sprawę.",
+    "description": "Zwykłe, codzienne wiadomości od rodziny, znajomych lub współpracowników."
+  },
+  {
+    "category": "Bezpieczna wiadomość",
+    "risk": "none",
+    "matched_example": "Kupiłem już bilety do kina na 20:00. Bądź proszę chwilę wcześniej pod kasami.",
+    "description": "Zwykłe, codzienne wiadomości od rodziny, znajomych lub współpracowników."
+  },
+  {
+    "category": "Bezpieczna wiadomość",
+    "risk": "none",
+    "matched_example": "Cześć, przesyłam poprawioną prezentację na jutrzejsze spotkanie z klientem. Zerknij na to w wolnej chwili.",
+    "description": "Zwykłe, codzienne wiadomości od rodziny, znajomych lub współpracowników."
+  },
+  {
+    "category": "Bezpieczna wiadomość",
+    "risk": "none",
+    "matched_example": "Dziękujemy za zakupy w naszym sklepie! Twoje zamówienie nr 9872 zostało pomyślnie opłacone i jest pakowane.",
+    "description": "Zwykłe, codzienne wiadomości od rodziny, znajomych lub współpracowników."
+  },
+  {
+    "category": "Bezpieczna wiadomość",
+    "risk": "none",
+    "matched_example": "Paczka o numerze PL982374923 została przekazana do doręczenia. Kurier podejmie próbę kontaktu w godzinach 11:00-13:00.",
+    "description": "Zwykłe, codzienne wiadomości od rodziny, znajomych lub współpracowników."
+  },
+  {
+    "category": "Bezpieczna wiadomość",
+    "risk": "none",
+    "matched_example": "Twój jednorazowy kod autoryzacyjny do zatwierdzenia przelewu to: 829103. Nigdy nie podawaj tego kodu osobom trzecim.",
+    "description": "Zwykłe, codzienne wiadomości od rodziny, znajomych lub współpracowników."
+  },
+  {
+    "category": "Bezpieczna wiadomość",
+    "risk": "none",
+    "matched_example": "Alert RCB: Uwaga! Dzisiaj w nocy (16/17.07) prognozowane silne burze z gradem i porywisty wiatr. Unikaj otwartych przestrzeni.",
+    "description": "Zwykłe, codzienne wiadomości od rodziny, znajomych lub współpracowników."
+  },
+  {
+    "category": "Bezpieczna wiadomość",
+    "risk": "none",
+    "matched_example": "Faktura VAT nr FV/2026/07/12 została wystawiona. Kwota do zapłaty zostanie pobrana automatycznie z Twojej karty płatniczej w dniu 20.07.2026.",
+    "description": "Zwykłe, codzienne wiadomości od rodziny, znajomych lub współpracowników."
+  },
+  {
+    "category": "Bezpieczna wiadomość",
+    "risk": "none",
+    "matched_example": "Hej! Spóźnię się dzisiaj na obiad około 15 minut, bo utknęłam w korku na moście. Zacznijcie bez mnie.",
+    "description": "Zwykłe, codzienne wiadomości od rodziny, znajomych lub współpracowników."
+  },
+  {
+    "category": "Bezpieczna wiadomość",
+    "risk": "none",
+    "matched_example": "Twoja rezerwacja stolika na nazwisko Kowalski w restauracji 'Pod Kasztanami' na godzinę 19:00 została potwierdzona.",
+    "description": "Zwykłe, codzienne wiadomości od rodziny, znajomych lub współpracowników."
+  },
+  {
+    "category": "Podszywanie się pod dostawców energii (PGE/Tauron/PGNiG)",
+    "risk": "high",
+    "matched_example": "PGE: informujemy, że na państwa koncie znajduje się nadpłata w wysokości 800zl. Zwrotu można dokonać po zalogowaniu się na konto.",
+    "description": "Atakujący informują o rzekomej nadpłacie, zaległości w opłatach lub planowanym odłączeniu prądu/gazu, podając link do fałszywego panelu logowania."
+  },
+  {
+    "category": "Podszywanie się pod dostawców energii (PGE/Tauron/PGNiG)",
+    "risk": "high",
+    "matched_example": "PGE: Na dzień dzisiejszy zaplanowano odłączenie energii elektrycznej. Prosimy o uregulowanie należności pod linkiem.",
+    "description": "Atakujący informują o rzekomej nadpłacie, zaległości w opłatach lub planowanym odłączeniu prądu/gazu, podając link do fałszywego panelu logowania."
+  },
+  {
+    "category": "Podszywanie się pod dostawców energii (PGE/Tauron/PGNiG)",
+    "risk": "high",
+    "matched_example": "Tauron: Masz nieopłaconą fakturę. Brak wpłaty skutkuje odcięciem zasilania. Opłać teraz.",
+    "description": "Atakujący informują o rzekomej nadpłacie, zaległości w opłatach lub planowanym odłączeniu prądu/gazu, podając link do fałszywego panelu logowania."
+  }
+]
