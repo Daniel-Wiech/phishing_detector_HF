@@ -54,7 +54,3 @@ src/
 ├── vector_db/       # Indeks FAISS + metadane
 └── data/            # Baza wzorców phishingowych (scenarios.json)
 ```
-
-## Autor
-
-Daniel-Wiech
