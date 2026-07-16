@@ -1,4 +1,4 @@
-# Phishing Detector HF
+# Phishing Detector HugingFace
 
 Lokalny klasyfikator phishingu dla wiadomości w języku polskim (SMS/e-mail), oparty na wyszukiwaniu semantycznym — wiadomość jest porównywana z bazą znanych wzorców ataków (FAISS) i jeśli jest do nich wystarczająco podobna, zostaje oznaczona jako phishing.
 
