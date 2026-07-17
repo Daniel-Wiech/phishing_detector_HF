@@ -19,36 +19,55 @@ class PhishingClassifier:
         if not self.db.load():
             self.build_index_from_scenarios()
 
-    def build_index_from_scenarios(self, data_path: str = settings.DATA_PATH) -> None:
-        """Wczytuje scenariusze z pliku JSON, tworzy embeddingi i buduje indeks wektorowy."""
+    def build_index_from_scenarios(self, deduplicate: bool = False):
+        # 1. Czyszczenie bazy na start
         self.db.clear()
-        if not os.path.exists(data_path):
-            raise FileNotFoundError(f"Brak pliku bazy wiedzy o scenariuszach pod ścieżką: {data_path}")
-            
-        with open(data_path, 'r', encoding='utf-8') as f:
-            scenarios: List[Dict[str, Any]] = json.load(f)
-            
-        texts_to_embed = []
-        metadata_list = []
         
-        for scenario in scenarios:
-            category = scenario["category"]
-            risk = scenario["risk"]
-            description = scenario["description"]
+        # 2. Wczytanie scenariuszy z pliku json
+        with open(settings.DATA_PATH, "r", encoding="utf-8") as f:
+            scenarios = json.load(f)
             
-            # Dodajemy przykłady jako punkty odniesienia
+        accepted_vectors = []
+        accepted_metadata = []
+        
+        # Próg deduplikacji (95% podobieństwa)
+        DEDUPLICATION_THRESHOLD = 0.95 
+        removed_duplicates_count = 0
+        for scenario in scenarios:
             for example in scenario["examples"]:
-                texts_to_embed.append(example)
-                metadata_list.append({
-                    "category": category,
-                    "risk": risk,
-                    "matched_example": example,
-                    "description": description
-                })
+                current_vector = self.embedder.get_embedding(example) 
+                is_duplicate = False
                 
-        if texts_to_embed:
-            embeddings = self.embedder.get_embeddings(texts_to_embed, is_query=False)
-            self.db.add_vectors(embeddings, metadata_list)
+                # Filtrowanie uruchomi się TYLKO, gdy flaga deduplicate == True
+                if deduplicate and accepted_vectors:
+                    matrix = np.array(accepted_vectors)
+                    similarities = np.dot(matrix, current_vector)
+                    
+                    if np.any(similarities >= DEDUPLICATION_THRESHOLD):
+                        is_duplicate = True
+                        removed_duplicates_count += 1  # Inkrementacja licznika
+                        print(f" -> Pominięto duplikat semantyczny: '{example}'")
+                
+                        
+                # Zapisujemy element jeśli nie jest duplikatem LUB gdy deduplikacja jest wyłączona
+                if not is_duplicate:
+                    accepted_vectors.append(current_vector)
+                    accepted_metadata.append({
+                        "category": scenario["category"],
+                        "risk": scenario["risk"],
+                        "matched_example": example,
+                        "description": scenario["description"]
+                    })
+                    
+        if deduplicate:
+            print(f"\n=== PODSUMOWANIE DEDUPLIKACJI ===")
+            print(f"Usunięto zduplikowanych wektorów: {removed_duplicates_count}")
+            print(f"Pozostało unikalnych wektorów w bazie: {len(accepted_vectors)}")
+            print("=================================\n")
+        # 3. Zapis do bazy
+        if accepted_vectors:
+            vectors_np = np.array(accepted_vectors).astype('float32')
+            self.db.add_vectors(vectors_np, accepted_metadata)
             self.db.save()
 
     def classify(self, message: str) -> Dict[str, Any]:
