@@ -1,105 +1,134 @@
-import json
 import os
+import json
 import numpy as np
-from typing import Dict, Any, List
+from typing import Dict, Any, List, Union
 from config import settings
 from embeddings.embedder import LocalEmbedder
 from vector_db.faiss_store import FaissVectorStore
+from data.preprocessing import EmailPreprocessor, EmailInput
 
 class PhishingClassifier:
-    """Główny moduł orkiestracji klasyfikacji semantycznej."""
-    
-    def __init__(self, threshold: float = settings.SIMILARITY_THRESHOLD):
+    def __init__(
+        self, 
+        score_threshold: float = settings.SCORE_THRESHOLD,
+        margin_threshold: float = settings.MARGIN_THRESHOLD,
+        top_k: int = settings.TOP_K
+    ):
         self.embedder = LocalEmbedder()
-        # multilingual-e5-large posiada wymiarowość (dimension) równą 1024
-        self.db = FaissVectorStore(dimension=1024)
-        self.threshold = threshold
+        self.db = FaissVectorStore()
+        self.score_threshold = score_threshold
+        self.margin_threshold = margin_threshold
+        self.top_k = top_k
         
-        # Spróbuj załadować istniejący indeks, w przeciwnym razie zbuduj go automatycznie
         if not self.db.load():
             self.build_index_from_scenarios()
 
-    def build_index_from_scenarios(self, deduplicate: bool = False):
-        # 1. Czyszczenie bazy na start
+    def build_index_from_scenarios(self, deduplicate: bool = True) -> None:
         self.db.clear()
         
-        # 2. Wczytanie scenariuszy z pliku json
+        if not os.path.exists(settings.DATA_PATH):
+            raise FileNotFoundError(f"Nie znaleziono pliku scenariuszy: {settings.DATA_PATH}")
+
         with open(settings.DATA_PATH, "r", encoding="utf-8") as f:
             scenarios = json.load(f)
-            
-        accepted_vectors = []
-        accepted_metadata = []
+
+        accepted_vectors: List[np.ndarray] = []
+        accepted_metadata: List[Dict[str, Any]] = []
         
-        # Próg deduplikacji (95% podobieństwa)
-        DEDUPLICATION_THRESHOLD = 0.95 
-        removed_duplicates_count = 0
+        DEDUPLICATION_THRESHOLD = 0.98
+
         for scenario in scenarios:
-            for example in scenario["examples"]:
-                current_vector = self.embedder.get_embedding(example) 
+            label = scenario.get("label", "phishing")
+            category = scenario.get("category", "General")
+            risk = scenario.get("risk", "medium")
+            
+            for example in scenario.get("examples", []):
+                curr_vec = self.embedder.get_embedding(example, is_query=False)
                 is_duplicate = False
-                
-                # Filtrowanie uruchomi się TYLKO, gdy flaga deduplicate == True
+
                 if deduplicate and accepted_vectors:
-                    matrix = np.array(accepted_vectors)
-                    similarities = np.dot(matrix, current_vector)
+                    # Deduplikacja TYLKO wewnątrz tej samej klasy!
+                    same_class_indices = [
+                        idx for idx, meta in enumerate(accepted_metadata) if meta["label"] == label
+                    ]
                     
-                    if np.any(similarities >= DEDUPLICATION_THRESHOLD):
-                        is_duplicate = True
-                        removed_duplicates_count += 1  # Inkrementacja licznika
-                        print(f" -> Pominięto duplikat semantyczny: '{example}'")
-                
-                        
-                # Zapisujemy element jeśli nie jest duplikatem LUB gdy deduplikacja jest wyłączona
+                    if same_class_indices:
+                        class_vectors = np.array([accepted_vectors[i] for i in same_class_indices])
+                        similarities = np.dot(class_vectors, curr_vec)
+                        if np.any(similarities >= DEDUPLICATION_THRESHOLD):
+                            is_duplicate = True
+
                 if not is_duplicate:
-                    accepted_vectors.append(current_vector)
+                    accepted_vectors.append(curr_vec)
                     accepted_metadata.append({
-                        "category": scenario["category"],
-                        "risk": scenario["risk"],
-                        "matched_example": example,
-                        "description": scenario["description"]
+                        "label": label,
+                        "category": category,
+                        "risk": risk,
+                        "example": example
                     })
-                    
-        if deduplicate:
-            print(f"\n=== PODSUMOWANIE DEDUPLIKACJI ===")
-            print(f"Usunięto zduplikowanych wektorów: {removed_duplicates_count}")
-            print(f"Pozostało unikalnych wektorów w bazie: {len(accepted_vectors)}")
-            print("=================================\n")
-        # 3. Zapis do bazy
+
         if accepted_vectors:
-            vectors_np = np.array(accepted_vectors).astype('float32')
+            vectors_np = np.array(accepted_vectors).astype("float32")
             self.db.add_vectors(vectors_np, accepted_metadata)
             self.db.save()
 
-    def classify(self, message: str) -> Dict[str, Any]:
-        """Klasyfikuje przesłaną wiadomość na podstawie odległości semantycznej."""
-        query_vector = self.embedder.get_embedding(message, is_query=True)
-        results = self.db.search(query_vector, k=1)
+    def classify(self, message: Union[str, EmailInput]) -> Dict[str, Any]:
+        formatted_text = EmailPreprocessor.process(message)
+        query_vector = self.embedder.get_embedding(formatted_text, is_query=True)
         
-        if not results:
+        search_results = self.db.search(query_vector, k=self.top_k)
+        
+        if not search_results:
             return {
-                "classification": "unknown",
+                "classification": "uncertain",
                 "confidence": 0.0,
-                "category": "Brak",
-                "similarity": 0.0,
-                "explanation": "Baza wiedzy jest pusta."
+                "phishing_score": 0.0,
+                "legitimate_score": 0.0,
+                "margin": 0.0,
+                "matched_examples": [],
+                "category": "Unknown",
+                "reason": "Baza wiedzy jest pusta."
             }
-            
-        best_match, similarity = results[0]
+
+        phishing_sims = [sim for meta, sim in search_results if meta["label"] == "phishing"]
+        legitimate_sims = [sim for meta, sim in search_results if meta["label"] == "legitimate"]
+
+    
+       # Uśredniamy do 2 najlepszych trafień w danej kategorii z pobranej piątki
+        phishing_score = float(np.mean(phishing_sims[:2])) if phishing_sims else 0.0
+        legitimate_score = float(np.mean(legitimate_sims[:2])) if legitimate_sims else 0.0
+
+        margin = phishing_score - legitimate_score
         
-        # Klasyfikacja na podstawie zdefiniowanego progu
-        classification = "phishing" if similarity >= self.threshold else "legitimate/unknown"
+        matched_examples = [
+            {"example": meta["example"], "label": meta["label"], "similarity": round(sim, 4)}
+            for meta, sim in search_results[:5]
+        ]
         
-        explanation = (
-            f"Wiadomość jest wysoce podobna do znanych kampanii phishingowych związanych z kategorią: '{best_match['category']}' "
-            f"(Najbliższy wzorzec: '{best_match['matched_example']}')."
-            if classification == "phishing" else
-            "Nie dopasowano wiadomości do żadnego ze znanych schematów ataków phishingowych."
-        )
-        
+        top_category = search_results[0][0]["category"] if search_results else "Unknown"
+
+        # Logika decyzyjna z wykorzystaniem SCORE + MARGIN
+        classification = "uncertain"
+        if phishing_score >= self.score_threshold and margin >= self.margin_threshold:
+            classification = "phishing"
+            confidence = phishing_score
+            reason = f"Wysokie podobieństwo do phishingu ({phishing_score:.2f}) oraz margines ({margin:.2f}) powyżej progu."
+        elif legitimate_score >= self.score_threshold and (-margin) >= self.margin_threshold:
+            classification = "legitimate"
+            confidence = legitimate_score
+            reason = f"Wysokie podobieństwo do wiadomości bezpiecznych ({legitimate_score:.2f})."
+        else:
+            confidence = max(phishing_score, legitimate_score)
+            reason = (f"Wynik niepewny (uncertain). Margines ({margin:.2f}) lub Wynik "
+                      f"(P: {phishing_score:.2f}, L: {legitimate_score:.2f}) nie spełniają wymogów.")
+
         return {
             "classification": classification,
-            "confidence": round(similarity, 4),
-            "category": best_match["category"] if classification == "phishing" else "unknown",
-            "similarity": round(similarity, 4),
-            "explanation": explanation
+            "confidence": round(confidence, 4),
+            "phishing_score": round(phishing_score, 4),
+            "legitimate_score": round(legitimate_score, 4),
+            "margin": round(margin, 4),
+            "matched_examples": matched_examples,
+            "category": top_category,
+            "reason": reason
         }
