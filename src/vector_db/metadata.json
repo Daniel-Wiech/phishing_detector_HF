@@ -2,1747 +2,1456 @@
   {
     "label": "phishing",
     "category": "PGE - Rzekoma nadpłata i zwrot środków",
-    "risk": "high",
     "example": "PGE: Wykryliśmy nadpłatę 120 zł na Twoim koncie. Zaloguj się, aby odebrać zwrot."
   },
   {
     "label": "phishing",
     "category": "PGE - Rzekoma nadpłata i zwrot środków",
-    "risk": "high",
     "example": "Masz niewykorzystaną nadpłatę za prąd w PGE w wysokości 145 PLN. Kliknij link i potwierdź dane."
   },
   {
     "label": "phishing",
     "category": "PGE - Rzekoma nadpłata i zwrot środków",
-    "risk": "high",
     "example": "PGE informuje o zwrocie środków za rozliczenie energii. Odbierz pieniądze po autoryzacji konta."
   },
   {
     "label": "phishing",
     "category": "Tauron - Groźba odłączenia prądu",
-    "risk": "critical",
     "example": "Tauron: Twoja faktura jest zaległa. Prąd zostanie odłączony dzisiaj, opłać rachunek przez link."
   },
   {
     "label": "phishing",
     "category": "Tauron - Groźba odłączenia prądu",
-    "risk": "critical",
     "example": "Uwaga Tauron, brak wpłaty spowoduje natychmiastowe wstrzymanie dostaw energii. Ureguluj należność."
   },
   {
     "label": "phishing",
     "category": "Tauron - Groźba odłączenia prądu",
-    "risk": "critical",
     "example": "Zaplanowano odłączenie prądu z powodu zadłużenia Tauron. Kliknij, aby zapłacić zaległość."
   },
   {
     "label": "phishing",
     "category": "InPost - Dopłata do przesyłki",
-    "risk": "high",
     "example": "InPost: Twoja paczka wymaga dopłaty 2,50 zł. Uzupełnij płatność, aby ją otrzymać."
   },
   {
     "label": "phishing",
     "category": "InPost - Dopłata do przesyłki",
-    "risk": "high",
     "example": "Brakuje opłaty za przesyłkę InPost w kwocie 3 PLN. Potwierdź dane odbiorcy."
   },
   {
     "label": "phishing",
     "category": "InPost - Dopłata do przesyłki",
-    "risk": "high",
     "example": "Twoja przesyłka została zatrzymana przez InPost. Zapłać niewielką dopłatę online."
   },
   {
     "label": "phishing",
     "category": "PKO BP - Blokada konta bankowego",
-    "risk": "critical",
     "example": "PKO BP: Twoje konto zostało zablokowane. Zaloguj się natychmiast, aby je odblokować."
   },
   {
     "label": "phishing",
     "category": "PKO BP - Blokada konta bankowego",
-    "risk": "critical",
     "example": "Wykryliśmy podejrzaną aktywność na rachunku PKO. Potwierdź dane przez formularz."
   },
   {
     "label": "phishing",
     "category": "PKO BP - Blokada konta bankowego",
-    "risk": "critical",
     "example": "Bank PKO informuje o blokadzie dostępu. Kliknij link i wykonaj weryfikację."
   },
   {
     "label": "phishing",
     "category": "OLX - Fałszywa autoryzacja sprzedaży",
-    "risk": "high",
     "example": "OLX: Kupujący opłacił produkt. Potwierdź odbiór środków przez bezpieczny formularz."
   },
   {
     "label": "phishing",
     "category": "OLX - Fałszywa autoryzacja sprzedaży",
-    "risk": "high",
     "example": "Twoja sprzedaż na OLX wymaga autoryzacji płatności. Kliknij link, aby otrzymać pieniądze."
   },
   {
     "label": "phishing",
     "category": "OLX - Fałszywa autoryzacja sprzedaży",
-    "risk": "high",
     "example": "OLX Pay: Aby wypłacić środki od kupującego, uzupełnij dane karty."
   },
   {
     "label": "phishing",
     "category": "Netflix - Wygasła metoda płatności",
-    "risk": "high",
     "example": "Netflix: Twoja płatność nie powiodła się. Zaktualizuj dane konta, aby kontynuować usługę."
   },
   {
     "label": "phishing",
     "category": "Netflix - Wygasła metoda płatności",
-    "risk": "high",
     "example": "Subskrypcja Netflix zostanie zawieszona z powodu problemu z kartą. Potwierdź płatność."
   },
   {
     "label": "phishing",
     "category": "Netflix - Wygasła metoda płatności",
-    "risk": "high",
     "example": "Netflix informuje o wygasłej metodzie płatności. Kliknij, aby odnowić konto."
   },
   {
     "label": "phishing",
     "category": "Allegro - Fałszywy zwrot pieniędzy",
-    "risk": "high",
     "example": "Allegro: Przysługuje Ci zwrot 89 zł. Potwierdź rachunek, aby otrzymać środki."
   },
   {
     "label": "phishing",
     "category": "Allegro - Fałszywy zwrot pieniędzy",
-    "risk": "high",
     "example": "Twoja reklamacja została uznana. Odbierz zwrot pieniędzy przez formularz Allegro."
   },
   {
     "label": "phishing",
     "category": "Allegro - Fałszywy zwrot pieniędzy",
-    "risk": "high",
     "example": "Allegro informuje o oczekującym zwrocie płatności. Zaloguj się, aby go odebrać."
   },
   {
     "label": "phishing",
     "category": "Kurier DHL - Nieudana dostawa",
-    "risk": "high",
     "example": "DHL: Nie mogliśmy dostarczyć paczki. Potwierdź adres przez link."
   },
   {
     "label": "phishing",
     "category": "Kurier DHL - Nieudana dostawa",
-    "risk": "high",
     "example": "Twoja przesyłka DHL czeka na aktualizację danych odbiorcy."
   },
   {
     "label": "phishing",
     "category": "Kurier DHL - Nieudana dostawa",
-    "risk": "high",
     "example": "Kurier DHL zatrzymał paczkę. Uzupełnij informacje, aby wznowić dostawę."
   },
   {
     "label": "phishing",
     "category": "mBank - Podejrzane logowanie",
-    "risk": "critical",
     "example": "mBank: Wykryto logowanie z nowego urządzenia. Potwierdź swoją tożsamość."
   },
   {
     "label": "phishing",
     "category": "mBank - Podejrzane logowanie",
-    "risk": "critical",
     "example": "Twoje konto mBank wymaga pilnej weryfikacji bezpieczeństwa."
   },
   {
     "label": "phishing",
     "category": "mBank - Podejrzane logowanie",
-    "risk": "critical",
     "example": "Alert mBank: Nietypowe logowanie wykryte. Zaloguj się, aby zabezpieczyć konto."
   },
   {
     "label": "phishing",
     "category": "Facebook - Weryfikacja konta",
-    "risk": "high",
     "example": "Facebook: Twój profil zostanie usunięty. Potwierdź konto w ciągu 24 godzin."
   },
   {
     "label": "phishing",
     "category": "Facebook - Weryfikacja konta",
-    "risk": "high",
     "example": "Meta informuje o ograniczeniu konta. Wykonaj szybką weryfikację użytkownika."
   },
   {
     "label": "phishing",
     "category": "Facebook - Weryfikacja konta",
-    "risk": "high",
     "example": "Twoje konto Facebook wymaga potwierdzenia właściciela przez formularz."
   },
   {
     "label": "phishing",
     "category": "Santander - Pilna aktualizacja danych klienta",
-    "risk": "critical",
     "example": "Santander: Twoje dane wymagają aktualizacji. Zaloguj się, aby uniknąć blokady konta."
   },
   {
     "label": "phishing",
     "category": "Santander - Pilna aktualizacja danych klienta",
-    "risk": "critical",
     "example": "Bank Santander informuje o konieczności potwierdzenia danych klienta przez formularz online."
   },
   {
     "label": "phishing",
     "category": "Santander - Pilna aktualizacja danych klienta",
-    "risk": "critical",
     "example": "Pilna weryfikacja Santander została wymagana. Uzupełnij informacje, aby zachować dostęp."
   },
   {
     "label": "phishing",
     "category": "ING - Zawieszenie bankowości internetowej",
-    "risk": "critical",
     "example": "ING: Dostęp do bankowości został zawieszony. Potwierdź konto, aby odzyskać dostęp."
   },
   {
     "label": "phishing",
     "category": "ING - Zawieszenie bankowości internetowej",
-    "risk": "critical",
     "example": "Twoje konto ING wymaga natychmiastowej aktywacji bezpieczeństwa."
   },
   {
     "label": "phishing",
     "category": "ING - Zawieszenie bankowości internetowej",
-    "risk": "critical",
     "example": "ING Bank Śląski: Wykryto problem z dostępem. Kliknij, aby odblokować rachunek."
   },
   {
     "label": "phishing",
     "category": "Vinted - Fałszywe potwierdzenie sprzedaży",
-    "risk": "high",
     "example": "Vinted: Kupujący zapłacił za przedmiot. Potwierdź wypłatę środków."
   },
   {
     "label": "phishing",
     "category": "Vinted - Fałszywe potwierdzenie sprzedaży",
-    "risk": "high",
     "example": "Twoja sprzedaż na Vinted została opłacona. Wprowadź dane karty, aby otrzymać pieniądze."
   },
   {
     "label": "phishing",
     "category": "Vinted - Fałszywe potwierdzenie sprzedaży",
-    "risk": "high",
     "example": "Vinted Pay wymaga potwierdzenia rachunku bankowego przed wypłatą."
   },
   {
     "label": "phishing",
     "category": "ePUAP - Fałszywe pismo urzędowe",
-    "risk": "high",
     "example": "ePUAP: Otrzymałeś nowe ważne pismo. Zaloguj się, aby je odebrać."
   },
   {
     "label": "phishing",
     "category": "ePUAP - Fałszywe pismo urzędowe",
-    "risk": "high",
     "example": "Urząd przesłał dokument elektroniczny. Potwierdź tożsamość przez ePUAP."
   },
   {
     "label": "phishing",
     "category": "ePUAP - Fałszywe pismo urzędowe",
-    "risk": "high",
     "example": "Masz oczekującą wiadomość urzędową na platformie ePUAP. Otwórz ją online."
   },
   {
     "label": "phishing",
     "category": "ZUS - Fałszywy zwrot składek",
-    "risk": "high",
     "example": "ZUS: Przysługuje Ci zwrot nadpłaconych składek. Podaj dane do przelewu."
   },
   {
     "label": "phishing",
     "category": "ZUS - Fałszywy zwrot składek",
-    "risk": "high",
     "example": "Zakład Ubezpieczeń Społecznych informuje o oczekującym zwrocie środków."
   },
   {
     "label": "phishing",
     "category": "ZUS - Fałszywy zwrot składek",
-    "risk": "high",
     "example": "Masz nadpłatę w ZUS w wysokości 240 zł. Zaloguj się, aby odebrać pieniądze."
   },
   {
     "label": "phishing",
     "category": "Urząd Skarbowy - Zwrot podatku",
-    "risk": "high",
     "example": "Urząd Skarbowy: Twój zwrot podatku 630 zł jest gotowy. Potwierdź rachunek."
   },
   {
     "label": "phishing",
     "category": "Urząd Skarbowy - Zwrot podatku",
-    "risk": "high",
     "example": "Otrzymasz zwrot PIT po uzupełnieniu danych bankowych online."
   },
   {
     "label": "phishing",
     "category": "Urząd Skarbowy - Zwrot podatku",
-    "risk": "high",
     "example": "Ministerstwo Finansów informuje o oczekującym zwrocie podatku. Kliknij link."
   },
   {
     "label": "phishing",
     "category": "Apple ID - Blokada konta",
-    "risk": "critical",
     "example": "Apple: Twoje konto zostało zablokowane z powodów bezpieczeństwa. Zweryfikuj dane."
   },
   {
     "label": "phishing",
     "category": "Apple ID - Blokada konta",
-    "risk": "critical",
     "example": "Apple ID wymaga potwierdzenia właściciela. Zaloguj się natychmiast."
   },
   {
     "label": "phishing",
     "category": "Apple ID - Blokada konta",
-    "risk": "critical",
     "example": "Wykryto nietypową aktywność na Apple ID. Kliknij, aby zabezpieczyć konto."
   },
   {
     "label": "phishing",
     "category": "Google - Nieautoryzowane logowanie",
-    "risk": "critical",
     "example": "Google: Wykryto podejrzane logowanie. Potwierdź konto teraz."
   },
   {
     "label": "phishing",
     "category": "Google - Nieautoryzowane logowanie",
-    "risk": "critical",
     "example": "Twoje konto Google zostało zagrożone. Wykonaj obowiązkową weryfikację."
   },
   {
     "label": "phishing",
     "category": "Google - Nieautoryzowane logowanie",
-    "risk": "critical",
     "example": "Alert bezpieczeństwa Google wymaga ponownego zalogowania użytkownika."
   },
   {
     "label": "phishing",
     "category": "Microsoft - Wygaśnięcie konta",
-    "risk": "high",
     "example": "Microsoft: Twoje konto zostanie usunięte, jeśli nie potwierdzisz danych."
   },
   {
     "label": "phishing",
     "category": "Microsoft - Wygaśnięcie konta",
-    "risk": "high",
     "example": "Usługa Microsoft wymaga ponownej aktywacji konta użytkownika."
   },
   {
     "label": "phishing",
     "category": "Microsoft - Wygaśnięcie konta",
-    "risk": "high",
     "example": "Twoje konto Microsoft wygasa dzisiaj. Kliknij, aby je zachować."
   },
   {
     "label": "phishing",
     "category": "PayPal - Podejrzana płatność",
-    "risk": "critical",
     "example": "PayPal: Wykryliśmy podejrzaną transakcję. Zaloguj się, aby ją anulować."
   },
   {
     "label": "phishing",
     "category": "PayPal - Podejrzana płatność",
-    "risk": "critical",
     "example": "Twoje konto PayPal wymaga sprawdzenia po nietypowej płatności."
   },
   {
     "label": "phishing",
     "category": "PayPal - Podejrzana płatność",
-    "risk": "critical",
     "example": "PayPal Security: Potwierdź dane konta, aby zatrzymać nieznaną operację."
   },
   {
     "label": "phishing",
     "category": "Netflix - Rzekome zawieszenie abonamentu",
-    "risk": "high",
     "example": "Netflix: Twój abonament zostanie anulowany z powodu nieudanej płatności. Zaktualizuj kartę."
   },
   {
     "label": "phishing",
     "category": "Netflix - Rzekome zawieszenie abonamentu",
-    "risk": "high",
     "example": "Twoje konto Netflix wymaga ponownej autoryzacji płatności, aby uniknąć przerwy w usłudze."
   },
   {
     "label": "phishing",
     "category": "Netflix - Rzekome zawieszenie abonamentu",
-    "risk": "high",
     "example": "Netflix informuje o problemie z rozliczeniem. Potwierdź dane płatnicze przez formularz."
   },
   {
     "label": "phishing",
     "category": "BLIK - Fałszywa prośba o kod",
-    "risk": "critical",
     "example": "Hej, jestem w potrzebie. Podeślij mi kod BLIK na 200 zł, oddam za chwilę."
   },
   {
     "label": "phishing",
     "category": "BLIK - Fałszywa prośba o kod",
-    "risk": "critical",
     "example": "Mam awarię płatności, wyślij proszę kod BLIK, żebym mógł szybko zapłacić."
   },
   {
     "label": "phishing",
     "category": "BLIK - Fałszywa prośba o kod",
-    "risk": "critical",
     "example": "Pilnie potrzebuję Twojego BLIKa. Podaj kod, a zaraz zwrócę pieniądze."
   },
   {
     "label": "phishing",
     "category": "InPost - Fałszywa zmiana adresu paczki",
-    "risk": "high",
     "example": "InPost: Twoja paczka wymaga poprawienia adresu dostawy. Uzupełnij dane odbiorcy."
   },
   {
     "label": "phishing",
     "category": "InPost - Fałszywa zmiana adresu paczki",
-    "risk": "high",
     "example": "Nie możemy dostarczyć przesyłki InPost bez aktualizacji adresu. Kliknij formularz."
   },
   {
     "label": "phishing",
     "category": "InPost - Fałszywa zmiana adresu paczki",
-    "risk": "high",
     "example": "Przesyłka została zatrzymana z powodu błędnego adresu. Potwierdź lokalizację."
   },
   {
     "label": "phishing",
     "category": "DHL - Dopłata celna za przesyłkę",
-    "risk": "high",
     "example": "DHL: Twoja przesyłka wymaga dopłaty celnej 4,99 zł. Opłać ją online."
   },
   {
     "label": "phishing",
     "category": "DHL - Dopłata celna za przesyłkę",
-    "risk": "high",
     "example": "Naliczono dodatkową opłatę za paczkę DHL. Ureguluj należność, aby odebrać przesyłkę."
   },
   {
     "label": "phishing",
     "category": "DHL - Dopłata celna za przesyłkę",
-    "risk": "high",
     "example": "DHL informuje o brakującej płatności za dostawę. Potwierdź przelew."
   },
   {
     "label": "phishing",
     "category": "Amazon - Problem z zamówieniem",
-    "risk": "high",
     "example": "Amazon: Twoje zamówienie zostało zatrzymane. Potwierdź dane konta."
   },
   {
     "label": "phishing",
     "category": "Amazon - Problem z zamówieniem",
-    "risk": "high",
     "example": "Amazon wymaga aktualizacji informacji rozliczeniowych przed wysyłką."
   },
   {
     "label": "phishing",
     "category": "Bank Millennium - Podejrzana aktywność",
-    "risk": "critical",
     "example": "Bank Millennium: Wykryliśmy podejrzaną operację. Potwierdź swoją tożsamość."
   },
   {
     "label": "phishing",
     "category": "Bank Millennium - Podejrzana aktywność",
-    "risk": "critical",
     "example": "Alert bezpieczeństwa Banku Millennium wymaga natychmiastowego logowania."
   },
   {
     "label": "phishing",
     "category": "Alior Bank - Aktualizacja zabezpieczeń",
-    "risk": "critical",
     "example": "Alior Bank: Wymagana aktualizacja zabezpieczeń konta. Zaloguj się teraz."
   },
   {
     "label": "phishing",
     "category": "Alior Bank - Aktualizacja zabezpieczeń",
-    "risk": "critical",
     "example": "Twoja aplikacja bankowa Alior wymaga potwierdzenia danych użytkownika."
   },
   {
     "label": "phishing",
     "category": "Alior Bank - Aktualizacja zabezpieczeń",
-    "risk": "critical",
     "example": "Alior informuje o konieczności aktywacji nowych zabezpieczeń online."
   },
   {
     "label": "phishing",
     "category": "mObywatel - Fałszywe potwierdzenie tożsamości",
-    "risk": "high",
     "example": "Aplikacja mObywatel wykryła problem z profilem zaufanym. Zweryfikuj dane."
   },
   {
     "label": "phishing",
     "category": "mObywatel - Fałszywe potwierdzenie tożsamości",
-    "risk": "high",
     "example": "Ministerstwo informuje o koniecznej aktualizacji profilu użytkownika."
   },
   {
     "label": "phishing",
     "category": "Profil Zaufany - Wygasająca sesja",
-    "risk": "high",
     "example": "Profil Zaufany: Twoja sesja wygasa dzisiaj. Zaloguj się ponownie."
   },
   {
     "label": "phishing",
     "category": "Profil Zaufany - Wygasająca sesja",
-    "risk": "high",
     "example": "Twój dostęp do Profilu Zaufanego zostanie ograniczony bez aktualizacji danych."
   },
   {
     "label": "phishing",
     "category": "Profil Zaufany - Wygasająca sesja",
-    "risk": "high",
     "example": "Wymagana jest ponowna autoryzacja konta Profilu Zaufanego."
   },
   {
     "label": "phishing",
     "category": "Poczta Polska - Nieodebrana przesyłka",
-    "risk": "high",
     "example": "Poczta Polska: Twoja przesyłka oczekuje na potwierdzenie odbioru."
   },
   {
     "label": "phishing",
     "category": "Poczta Polska - Nieodebrana przesyłka",
-    "risk": "high",
     "example": "Nieodebrana paczka została zatrzymana. Uzupełnij dane, aby ją otrzymać."
   },
   {
     "label": "phishing",
     "category": "Poczta Polska - Nieodebrana przesyłka",
-    "risk": "high",
     "example": "Poczta Polska informuje o konieczności aktualizacji informacji dostawy."
   },
   {
     "label": "phishing",
     "category": "Santander - Fałszywy zwrot za kartę",
-    "risk": "high",
     "example": "Santander: Należny jest Ci zwrot 85 zł za kartę. Potwierdź konto, aby otrzymać pieniądze."
   },
   {
     "label": "phishing",
     "category": "Santander - Fałszywy zwrot za kartę",
-    "risk": "high",
     "example": "Bank Santander informuje o oczekującym zwrocie opłaty za kartę. Zaloguj się po środki."
   },
   {
     "label": "phishing",
     "category": "Santander - Fałszywy zwrot za kartę",
-    "risk": "high",
     "example": "Masz dostępny zwrot za usługę bankową Santander. Uzupełnij dane wypłaty online."
   },
   {
     "label": "phishing",
     "category": "Orange - Zaległa faktura telefoniczna",
-    "risk": "high",
     "example": "Orange: Twoja faktura jest nieopłacona. Zapłać natychmiast, aby uniknąć blokady numeru."
   },
   {
     "label": "phishing",
     "category": "Orange - Zaległa faktura telefoniczna",
-    "risk": "high",
     "example": "Masz zaległość za usługi Orange. Ureguluj rachunek przez podany formularz."
   },
   {
     "label": "phishing",
     "category": "Orange - Zaległa faktura telefoniczna",
-    "risk": "high",
     "example": "Orange informuje o wstrzymaniu usług z powodu braku płatności. Opłać fakturę teraz."
   },
   {
     "label": "phishing",
     "category": "Play - Wyłączenie numeru telefonu",
-    "risk": "high",
     "example": "Play: Twój numer zostanie wyłączony dzisiaj. Potwierdź dane abonenta."
   },
   {
     "label": "phishing",
     "category": "Play - Wyłączenie numeru telefonu",
-    "risk": "high",
     "example": "Operator Play wymaga aktualizacji informacji, aby zachować aktywną kartę SIM."
   },
   {
     "label": "phishing",
     "category": "Play - Wyłączenie numeru telefonu",
-    "risk": "high",
     "example": "Twoja karta Play zostanie zablokowana bez ponownej weryfikacji konta."
   },
   {
     "label": "phishing",
     "category": "T-Mobile - Nagroda za ankietę",
-    "risk": "medium",
     "example": "T-Mobile: Wygrałeś smartfon w ankiecie. Podaj dane, aby odebrać nagrodę."
   },
   {
     "label": "phishing",
     "category": "T-Mobile - Nagroda za ankietę",
-    "risk": "medium",
     "example": "Gratulacje, zostałeś wybrany do odbioru nagrody T-Mobile. Potwierdź formularz."
   },
   {
     "label": "phishing",
     "category": "T-Mobile - Nagroda za ankietę",
-    "risk": "medium",
     "example": "T-Mobile oferuje specjalną nagrodę dla klientów. Wypełnij dane odbiorcy."
   },
   {
     "label": "phishing",
     "category": "Booking - Fałszywa anulacja rezerwacji",
-    "risk": "high",
     "example": "Booking: Twoja rezerwacja zostanie anulowana. Potwierdź płatność przez link."
   },
   {
     "label": "phishing",
     "category": "Booking - Fałszywa anulacja rezerwacji",
-    "risk": "high",
     "example": "Hotel zgłosił problem z kartą. Zaktualizuj dane, aby utrzymać rezerwację."
   },
   {
     "label": "phishing",
     "category": "Booking - Fałszywa anulacja rezerwacji",
-    "risk": "high",
     "example": "Booking informuje o wymaganej ponownej autoryzacji płatności za pobyt."
   },
   {
     "label": "phishing",
     "category": "Spotify - Problem z subskrypcją Premium",
-    "risk": "medium",
     "example": "Spotify: Twoje konto Premium zostanie wyłączone. Zaktualizuj metodę płatności."
   },
   {
     "label": "phishing",
     "category": "Spotify - Problem z subskrypcją Premium",
-    "risk": "medium",
     "example": "Wystąpił problem z rozliczeniem Spotify Premium. Potwierdź dane karty."
   },
   {
     "label": "phishing",
     "category": "Spotify - Problem z subskrypcją Premium",
-    "risk": "medium",
     "example": "Spotify wymaga ponownej weryfikacji płatności, aby zachować subskrypcję."
   },
   {
     "label": "phishing",
     "category": "Steam - Kradzież konta gracza",
-    "risk": "high",
     "example": "Steam: Twoje konto zostało zgłoszone. Zaloguj się, aby uniknąć blokady."
   },
   {
     "label": "phishing",
     "category": "Steam - Kradzież konta gracza",
-    "risk": "high",
     "example": "Wykryto podejrzaną aktywność na Steam. Potwierdź właściciela konta."
   },
   {
     "label": "phishing",
     "category": "Steam - Kradzież konta gracza",
-    "risk": "high",
     "example": "Steam wymaga szybkiej weryfikacji konta użytkownika z powodu naruszenia zasad."
   },
   {
     "label": "phishing",
     "category": "LinkedIn - Fałszywe powiadomienie rekrutacyjne",
-    "risk": "medium",
     "example": "LinkedIn: Otrzymałeś ofertę pracy. Zaloguj się, aby zobaczyć szczegóły."
   },
   {
     "label": "phishing",
     "category": "LinkedIn - Fałszywe powiadomienie rekrutacyjne",
-    "risk": "medium",
     "example": "Nowa wiadomość od rekrutera LinkedIn wymaga potwierdzenia konta."
   },
   {
     "label": "phishing",
     "category": "LinkedIn - Fałszywe powiadomienie rekrutacyjne",
-    "risk": "medium",
     "example": "Twój profil LinkedIn został wybrany przez firmę. Otwórz ofertę przez link."
   },
   {
     "label": "phishing",
     "category": "Dropbox - Fałszywy dostęp do dokumentu",
-    "risk": "high",
     "example": "Dropbox: Udostępniono Ci ważny dokument. Zaloguj się, aby go otworzyć."
   },
   {
     "label": "phishing",
     "category": "Dropbox - Fałszywy dostęp do dokumentu",
-    "risk": "high",
     "example": "Otrzymałeś plik w Dropbox wymagający potwierdzenia dostępu."
   },
   {
     "label": "phishing",
     "category": "Dropbox - Fałszywy dostęp do dokumentu",
-    "risk": "high",
     "example": "Nowy dokument Dropbox jest gotowy. Podaj dane logowania, aby zobaczyć zawartość."
   },
   {
     "label": "phishing",
     "category": "Faktura PDF - Fałszywy załącznik",
-    "risk": "critical",
     "example": "W załączniku przesyłamy zaległą fakturę PDF. Otwórz dokument i sprawdź płatność."
   },
   {
     "label": "phishing",
     "category": "Faktura PDF - Fałszywy załącznik",
-    "risk": "critical",
     "example": "Przypominamy o nieopłaconej fakturze. Pobierz załączony plik PDF."
   },
   {
     "label": "phishing",
     "category": "Faktura PDF - Fałszywy załącznik",
-    "risk": "critical",
     "example": "Nowa faktura elektroniczna jest dostępna w załączniku. Zweryfikuj kwotę należności."
   },
   {
     "label": "phishing",
     "category": "PIT - Fałszywe potwierdzenie rozliczenia",
-    "risk": "high",
     "example": "Twój PIT został zaakceptowany. Zaloguj się, aby odebrać potwierdzenie zwrotu."
   },
   {
     "label": "phishing",
     "category": "PIT - Fałszywe potwierdzenie rozliczenia",
-    "risk": "high",
     "example": "Krajowa Administracja Skarbowa informuje o gotowym rozliczeniu podatku. Otwórz dokument online."
   },
   {
     "label": "phishing",
     "category": "PIT - Fałszywe potwierdzenie rozliczenia",
-    "risk": "high",
     "example": "Twoje zeznanie podatkowe wymaga potwierdzenia danych przez bezpieczny formularz."
   },
   {
     "label": "phishing",
     "category": "Karta płatnicza - Fałszywa blokada",
-    "risk": "critical",
     "example": "Wykryto problem z kartą płatniczą. Zweryfikuj informacje właściciela online."
   },
   {
     "label": "phishing",
     "category": "Karta płatnicza - Fałszywa blokada",
-    "risk": "critical",
     "example": "Karta wymaga natychmiastowej aktywacji bezpieczeństwa. Kliknij, aby kontynuować."
   },
   {
     "label": "phishing",
     "category": "Google Drive - Fałszywy dokument współdzielony",
-    "risk": "high",
     "example": "Google Drive: Udostępniono Ci poufny dokument. Zaloguj się, aby go zobaczyć."
   },
   {
     "label": "phishing",
     "category": "Google Drive - Fałszywy dokument współdzielony",
-    "risk": "high",
     "example": "Otrzymałeś zaproszenie do pliku Google. Potwierdź konto przed otwarciem."
   },
   {
     "label": "phishing",
     "category": "Messenger - Podszywanie się pod znajomego",
-    "risk": "critical",
     "example": "Cześć, możesz pożyczyć mi 300 zł? Mam problem z płatnością i oddam jutro."
   },
   {
     "label": "phishing",
     "category": "Messenger - Podszywanie się pod znajomego",
-    "risk": "critical",
     "example": "Hej, pilnie potrzebuję przelewu. Wyślij mi pieniądze na ten numer."
   },
   {
     "label": "phishing",
     "category": "Messenger - Podszywanie się pod znajomego",
-    "risk": "critical",
     "example": "To ja, mam awarię konta. Podeślij proszę kod BLIK albo przelew."
   },
   {
     "label": "phishing",
     "category": "Loteria - Fałszywa wygrana",
-    "risk": "medium",
     "example": "Gratulacje! Wygrałeś 5000 zł. Podaj dane, aby odebrać nagrodę."
   },
   {
     "label": "phishing",
     "category": "Loteria - Fałszywa wygrana",
-    "risk": "medium",
     "example": "Zostałeś wybrany jako zwycięzca konkursu. Potwierdź informacje odbiorcy."
   },
   {
     "label": "phishing",
     "category": "Loteria - Fałszywa wygrana",
-    "risk": "medium",
     "example": "Masz oczekującą nagrodę pieniężną. Wypełnij formularz wypłaty."
   },
   {
     "label": "phishing",
     "category": "Kryptowaluty - Fałszywy zwrot inwestycji",
-    "risk": "critical",
     "example": "Twoja inwestycja wygenerowała zysk. Zaloguj się, aby wypłacić środki."
   },
   {
     "label": "phishing",
     "category": "Kryptowaluty - Fałszywy zwrot inwestycji",
-    "risk": "critical",
     "example": "Platforma kryptowalutowa informuje o dostępnych 1200 zł do odbioru."
   },
   {
     "label": "phishing",
     "category": "Kryptowaluty - Fałszywy zwrot inwestycji",
-    "risk": "critical",
     "example": "Otrzymałeś zwrot za inwestycję. Potwierdź portfel i dane konta."
   },
   {
     "label": "phishing",
     "category": "Ubezpieczenie - Fałszywe odnowienie polisy",
-    "risk": "high",
     "example": "Twoja polisa wygasa dzisiaj. Opłać składkę, aby zachować ochronę."
   },
   {
     "label": "phishing",
     "category": "Ubezpieczenie - Fałszywe odnowienie polisy",
-    "risk": "high",
     "example": "Ubezpieczyciel przypomina o zaległej płatności za polisę. Kliknij, aby zapłacić."
   },
   {
     "label": "phishing",
     "category": "Ubezpieczenie - Fałszywe odnowienie polisy",
-    "risk": "high",
     "example": "Brak odnowienia ubezpieczenia spowoduje utratę ochrony. Ureguluj składkę online."
   },
   {
     "label": "phishing",
     "category": "Aplikacja bankowa - Fałszywa aktualizacja",
-    "risk": "critical",
     "example": "Twoja aplikacja bankowa wymaga pilnej aktualizacji bezpieczeństwa. Pobierz nową wersję."
   },
   {
     "label": "phishing",
     "category": "Aplikacja bankowa - Fałszywa aktualizacja",
-    "risk": "critical",
     "example": "Bank udostępnił obowiązkową aktualizację aplikacji. Zainstaluj ją przez link."
   },
   {
     "label": "phishing",
     "category": "Aplikacja bankowa - Fałszywa aktualizacja",
-    "risk": "critical",
     "example": "Wymagana jest poprawka zabezpieczeń aplikacji bankowej. Kliknij, aby rozpocząć."
   },
   {
     "label": "phishing",
     "category": "SMS premium - Fałszywa aktywacja usługi",
-    "risk": "medium",
     "example": "Twoja usługa premium zostanie aktywowana. Anuluj ją przez podany formularz."
   },
   {
     "label": "phishing",
     "category": "SMS premium - Fałszywa aktywacja usługi",
-    "risk": "medium",
     "example": "Potwierdź rezygnację z płatnej subskrypcji, aby uniknąć opłaty."
   },
   {
     "label": "phishing",
     "category": "Konto użytkownika - Fałszywe potwierdzenie tożsamości",
-    "risk": "high",
     "example": "Twoje konto wymaga potwierdzenia tożsamości. Uzupełnij dane, aby zachować dostęp."
   },
   {
     "label": "phishing",
     "category": "Konto użytkownika - Fałszywe potwierdzenie tożsamości",
-    "risk": "high",
     "example": "Ze względów bezpieczeństwa musisz ponownie zweryfikować swoje konto."
   },
   {
     "label": "legitimate",
     "category": "Prawdziwe kody OTP / 2FA z banku",
-    "risk": "none",
     "example": "Twój kod autoryzacyjny do przelewu na kwotę 150 PLN to: 829103. Nie podawaj go nikomu."
   },
   {
     "label": "legitimate",
     "category": "Prawdziwe kody OTP / 2FA z banku",
-    "risk": "none",
     "example": "Kod SMS do potwierdzenia operacji bankowej: 940218. Kod ważny przez kilka minut."
   },
   {
     "label": "legitimate",
     "category": "Prawdziwe kody OTP / 2FA z banku",
-    "risk": "none",
     "example": "Kod 2FA: 551920. Użyj go, aby zatwierdzić logowanie do bankowości."
   },
   {
     "label": "legitimate",
     "category": "Bank - Potwierdzenie wykonania przelewu",
-    "risk": "none",
     "example": "Przelew na kwotę 250 zł został wykonany pomyślnie z Twojego konta."
   },
   {
     "label": "legitimate",
     "category": "Bank - Potwierdzenie wykonania przelewu",
-    "risk": "none",
     "example": "Bank informuje: transakcja została zrealizowana zgodnie z dyspozycją."
   },
   {
     "label": "legitimate",
     "category": "Bank - Potwierdzenie wykonania przelewu",
-    "risk": "none",
     "example": "Potwierdzenie operacji: przelew został poprawnie zaksięgowany."
   },
   {
     "label": "legitimate",
     "category": "Lekarz - Przypomnienie o wizycie",
-    "risk": "none",
     "example": "Przypominamy o wizycie u lekarza dnia 15 maja o godzinie 10:30."
   },
   {
     "label": "legitimate",
     "category": "Lekarz - Przypomnienie o wizycie",
-    "risk": "none",
     "example": "Twoja konsultacja medyczna odbędzie się jutro o godz. 9:00. Prosimy o punktualność."
   },
   {
     "label": "legitimate",
     "category": "Lekarz - Przypomnienie o wizycie",
-    "risk": "none",
     "example": "Centrum medyczne przypomina o zaplanowanej wizycie lekarskiej."
   },
   {
     "label": "legitimate",
     "category": "Restauracja - Potwierdzenie rezerwacji stolika",
-    "risk": "none",
     "example": "Twoja rezerwacja stolika dla 4 osób została potwierdzona na godzinę 19:00."
   },
   {
     "label": "legitimate",
     "category": "Restauracja - Potwierdzenie rezerwacji stolika",
-    "risk": "none",
     "example": "Restauracja potwierdza przyjęcie rezerwacji na dzisiejszy wieczór."
   },
   {
     "label": "legitimate",
     "category": "Restauracja - Potwierdzenie rezerwacji stolika",
-    "risk": "none",
     "example": "Stolik został zarezerwowany zgodnie z Twoim zgłoszeniem."
   },
   {
     "label": "legitimate",
     "category": "Znajomy - Prywatna wiadomość tekstowa",
-    "risk": "none",
     "example": "Hej, będę za 10 minut pod domem. Przygotuj się do wyjścia."
   },
   {
     "label": "legitimate",
     "category": "Znajomy - Prywatna wiadomość tekstowa",
-    "risk": "none",
     "example": "Cześć, pamiętasz o naszym spotkaniu dzisiaj po południu?"
   },
   {
     "label": "legitimate",
     "category": "Znajomy - Prywatna wiadomość tekstowa",
-    "risk": "none",
     "example": "Jestem już w drodze, odezwę się jak dojadę."
   },
   {
     "label": "legitimate",
     "category": "Alert RCB - Ostrzeżenie pogodowe",
-    "risk": "none",
     "example": "Alert RCB: Prognozowane są silne burze. Zachowaj ostrożność i śledź komunikaty."
   },
   {
     "label": "legitimate",
     "category": "Alert RCB - Ostrzeżenie pogodowe",
-    "risk": "none",
     "example": "Rządowe Centrum Bezpieczeństwa ostrzega przed intensywnymi opadami deszczu."
   },
   {
     "label": "legitimate",
     "category": "Alert RCB - Ostrzeżenie pogodowe",
-    "risk": "none",
     "example": "RCB informuje o możliwych zagrożeniach pogodowych na Twoim obszarze."
   },
   {
     "label": "legitimate",
     "category": "Allegro - Potwierdzenie opłacenia zamówienia",
-    "risk": "none",
     "example": "Allegro: Twoja płatność za zamówienie została pomyślnie zaksięgowana."
   },
   {
     "label": "legitimate",
     "category": "Allegro - Potwierdzenie opłacenia zamówienia",
-    "risk": "none",
     "example": "Potwierdzamy otrzymanie wpłaty za zakupiony produkt na Allegro."
   },
   {
     "label": "legitimate",
     "category": "Allegro - Potwierdzenie opłacenia zamówienia",
-    "risk": "none",
     "example": "Zamówienie Allegro zostało opłacone i przekazane do realizacji."
   },
   {
     "label": "legitimate",
     "category": "Kurier - Oficjalny status paczki",
-    "risk": "none",
     "example": "Twoja paczka została przekazana kurierowi i jest w drodze."
   },
   {
     "label": "legitimate",
     "category": "Kurier - Oficjalny status paczki",
-    "risk": "none",
     "example": "Status przesyłki zmienił się na: przygotowana do doręczenia."
   },
   {
     "label": "legitimate",
     "category": "Kurier - Oficjalny status paczki",
-    "risk": "none",
     "example": "Kurier odebrał przesyłkę. Planowana dostawa nastąpi dzisiaj."
   },
   {
     "label": "legitimate",
     "category": "Operator komórkowy - Informacja o pakiecie",
-    "risk": "none",
     "example": "Twój pakiet internetu został odnowiony na kolejny okres rozliczeniowy."
   },
   {
     "label": "legitimate",
     "category": "Operator komórkowy - Informacja o pakiecie",
-    "risk": "none",
     "example": "Operator informuje o aktywacji dodatkowego pakietu danych."
   },
   {
     "label": "legitimate",
     "category": "Operator komórkowy - Informacja o pakiecie",
-    "risk": "none",
     "example": "Usługa mobilna została pomyślnie uruchomiona na Twoim numerze."
   },
   {
     "label": "legitimate",
     "category": "Sklep internetowy - Potwierdzenie zamówienia",
-    "risk": "none",
     "example": "Twoje zamówienie zostało przyjęte i jest przygotowywane do wysyłki."
   },
   {
     "label": "legitimate",
     "category": "Sklep internetowy - Potwierdzenie zamówienia",
-    "risk": "none",
     "example": "Sklep potwierdza otrzymanie zamówienia numer 45821."
   },
   {
     "label": "legitimate",
     "category": "Sklep internetowy - Potwierdzenie zamówienia",
-    "risk": "none",
     "example": "Dziękujemy za zakup. Rozpoczęliśmy realizację Twojego zamówienia."
   },
   {
     "label": "legitimate",
     "category": "Google - Kod zabezpieczający konto",
-    "risk": "none",
     "example": "Twój kod weryfikacyjny Google to 483920. Nie udostępniaj go innym osobom."
   },
   {
     "label": "legitimate",
     "category": "Google - Kod zabezpieczający konto",
-    "risk": "none",
     "example": "Kod zabezpieczający Google: 729154. Użyj go do potwierdzenia logowania."
   },
   {
     "label": "legitimate",
     "category": "Google - Kod zabezpieczający konto",
-    "risk": "none",
     "example": "Otrzymany kod jednorazowy do konta Google to 615803. Nie przekazuj go nikomu."
   },
   {
     "label": "legitimate",
     "category": "Apple - Kod Apple ID",
-    "risk": "none",
     "example": "Twój kod Apple ID to 284611. Wprowadź go na swoim urządzeniu."
   },
   {
     "label": "legitimate",
     "category": "Apple - Kod Apple ID",
-    "risk": "none",
     "example": "Kod weryfikacyjny Apple: 930472. Nie udostępniaj tego kodu."
   },
   {
     "label": "legitimate",
     "category": "Apple - Kod Apple ID",
-    "risk": "none",
     "example": "Użyj kodu 551804, aby potwierdzić logowanie do Apple ID."
   },
   {
     "label": "legitimate",
     "category": "Profil Zaufany - Potwierdzenie logowania",
-    "risk": "none",
     "example": "Potwierdź logowanie do Profilu Zaufanego kodem otrzymanym w wiadomości SMS."
   },
   {
     "label": "legitimate",
     "category": "Profil Zaufany - Potwierdzenie logowania",
-    "risk": "none",
     "example": "Kod autoryzacyjny Profilu Zaufanego: 772190. Służy do potwierdzenia operacji."
   },
   {
     "label": "legitimate",
     "category": "Profil Zaufany - Potwierdzenie logowania",
-    "risk": "none",
     "example": "Twoje logowanie wymaga potwierdzenia jednorazowym kodem bezpieczeństwa."
   },
   {
     "label": "legitimate",
     "category": "Paczkomat - Kod odbioru przesyłki",
-    "risk": "none",
     "example": "Twoja paczka czeka w paczkomacie. Kod odbioru: 839204."
   },
   {
     "label": "legitimate",
     "category": "Paczkomat - Kod odbioru przesyłki",
-    "risk": "none",
     "example": "Przesyłka została umieszczona w skrytce. Użyj kodu 462911 przy odbiorze."
   },
   {
     "label": "legitimate",
     "category": "Paczkomat - Kod odbioru przesyłki",
-    "risk": "none",
     "example": "Gotowe! Możesz odebrać paczkę z paczkomatu, podając kod 728305."
   },
   {
     "label": "legitimate",
     "category": "Hotel - Potwierdzenie rezerwacji pobytu",
-    "risk": "none",
     "example": "Twoja rezerwacja pokoju została potwierdzona na termin 12-15 czerwca."
   },
   {
     "label": "legitimate",
     "category": "Hotel - Potwierdzenie rezerwacji pobytu",
-    "risk": "none",
     "example": "Hotel potwierdza przyjęcie rezerwacji dla dwóch osób."
   },
   {
     "label": "legitimate",
     "category": "Hotel - Potwierdzenie rezerwacji pobytu",
-    "risk": "none",
     "example": "Zakwaterowanie zostało zarezerwowane zgodnie z wybranym terminem."
   },
   {
     "label": "legitimate",
     "category": "Linie lotnicze - Potwierdzenie biletu",
-    "risk": "none",
     "example": "Twój bilet lotniczy został wystawiony. Szczegóły podróży znajdziesz w aplikacji."
   },
   {
     "label": "legitimate",
     "category": "Linie lotnicze - Potwierdzenie biletu",
-    "risk": "none",
     "example": "Potwierdzamy rezerwację lotu na wybrany termin."
   },
   {
     "label": "legitimate",
     "category": "Linie lotnicze - Potwierdzenie biletu",
-    "risk": "none",
     "example": "Zakup biletu zakończył się pomyślnie. Numer rezerwacji został zapisany."
   },
   {
     "label": "legitimate",
     "category": "Biblioteka - Termin zwrotu książki",
-    "risk": "none",
     "example": "Przypominamy, że termin zwrotu wypożyczonej książki upływa 20 maja."
   },
   {
     "label": "legitimate",
     "category": "Biblioteka - Termin zwrotu książki",
-    "risk": "none",
     "example": "Biblioteka informuje o zbliżającym się terminie oddania książek."
   },
   {
     "label": "legitimate",
     "category": "Biblioteka - Termin zwrotu książki",
-    "risk": "none",
     "example": "Twoje wypożyczenie wygasa w przyszłym tygodniu. Prosimy o zwrot."
   },
   {
     "label": "legitimate",
     "category": "Szkoła - Informacja dla rodzica",
-    "risk": "none",
     "example": "Przypominamy o zebraniu rodziców w środę o godzinie 17:00."
   },
   {
     "label": "legitimate",
     "category": "Szkoła - Informacja dla rodzica",
-    "risk": "none",
     "example": "Szkoła informuje o terminie najbliższego spotkania z wychowawcą."
   },
   {
     "label": "legitimate",
     "category": "Szkoła - Informacja dla rodzica",
-    "risk": "none",
     "example": "Rodzice uczniów są zaproszeni na zebranie zaplanowane na przyszły tydzień."
   },
   {
     "label": "legitimate",
     "category": "Przychodnia - Potwierdzenie rejestracji",
-    "risk": "none",
     "example": "Twoja rejestracja do poradni została przyjęta na dzień 8 lipca."
   },
   {
     "label": "legitimate",
     "category": "Przychodnia - Potwierdzenie rejestracji",
-    "risk": "none",
     "example": "Potwierdzamy zapisanie wizyty medycznej w wybranym terminie."
   },
   {
     "label": "legitimate",
     "category": "Przychodnia - Potwierdzenie rejestracji",
-    "risk": "none",
     "example": "Przychodnia potwierdza umówienie konsultacji specjalistycznej."
   },
   {
     "label": "legitimate",
     "category": "Urząd - Potwierdzenie złożenia wniosku",
-    "risk": "none",
     "example": "Twój wniosek został poprawnie złożony i oczekuje na rozpatrzenie."
   },
   {
     "label": "legitimate",
     "category": "Urząd - Potwierdzenie złożenia wniosku",
-    "risk": "none",
     "example": "Urząd potwierdza otrzymanie dokumentów w prowadzonej sprawie."
   },
   {
     "label": "legitimate",
     "category": "Urząd - Potwierdzenie złożenia wniosku",
-    "risk": "none",
     "example": "Potwierdzamy przyjęcie formularza. Status sprawy możesz sprawdzić później."
   },
   {
     "label": "legitimate",
     "category": "Netflix - Potwierdzenie płatności abonamentu",
-    "risk": "none",
     "example": "Netflix: Twoja płatność za kolejny okres subskrypcji została zakończona pomyślnie."
   },
   {
     "label": "legitimate",
     "category": "Netflix - Potwierdzenie płatności abonamentu",
-    "risk": "none",
     "example": "Opłata za konto Netflix została pobrana zgodnie z ustawioną metodą płatności."
   },
   {
     "label": "legitimate",
     "category": "Netflix - Potwierdzenie płatności abonamentu",
-    "risk": "none",
     "example": "Potwierdzamy rozliczenie abonamentu Netflix za bieżący miesiąc."
   },
   {
     "label": "legitimate",
     "category": "Spotify - Aktywacja Premium",
-    "risk": "none",
     "example": "Spotify Premium został aktywowany na Twoim koncie."
   },
   {
     "label": "legitimate",
     "category": "Spotify - Aktywacja Premium",
-    "risk": "none",
     "example": "Potwierdzamy rozpoczęcie kolejnego okresu korzystania z Spotify Premium."
   },
   {
     "label": "legitimate",
     "category": "Allegro - Informacja o wysyłce zamówienia",
-    "risk": "none",
     "example": "Allegro: Twoje zamówienie zostało wysłane i jest w drodze do Ciebie."
   },
   {
     "label": "legitimate",
     "category": "Allegro - Informacja o wysyłce zamówienia",
-    "risk": "none",
     "example": "Sprzedający przekazał paczkę do dostawy. Status zamówienia został zmieniony."
   },
   {
     "label": "legitimate",
     "category": "Allegro - Informacja o wysyłce zamówienia",
-    "risk": "none",
     "example": "Twoja przesyłka z Allegro została nadana przez sprzedawcę."
   },
   {
     "label": "legitimate",
     "category": "Bank - Informacja o planowanej przerwie technicznej",
-    "risk": "none",
     "example": "Bank informuje o planowanej przerwie technicznej w godzinach nocnych."
   },
   {
     "label": "legitimate",
     "category": "Bank - Informacja o planowanej przerwie technicznej",
-    "risk": "none",
     "example": "Trwają przygotowania do prac serwisowych systemu bankowego."
   },
   {
     "label": "legitimate",
     "category": "Bank - Informacja o planowanej przerwie technicznej",
-    "risk": "none",
     "example": "Uprzejmie informujemy o czasowej niedostępności wybranych usług bankowych."
   },
   {
     "label": "legitimate",
     "category": "Aplikacja mobilna - Potwierdzenie instalacji",
-    "risk": "none",
     "example": "Aplikacja została poprawnie zainstalowana na Twoim urządzeniu."
   },
   {
     "label": "legitimate",
     "category": "Aplikacja mobilna - Potwierdzenie instalacji",
-    "risk": "none",
     "example": "Potwierdzamy aktywację aplikacji mobilnej na przypisanym telefonie."
   },
   {
     "label": "legitimate",
     "category": "Aplikacja mobilna - Potwierdzenie instalacji",
-    "risk": "none",
     "example": "Twoja aplikacja została uruchomiona i jest gotowa do użycia."
   },
   {
     "label": "legitimate",
     "category": "Sklep internetowy - Faktura elektroniczna",
-    "risk": "none",
     "example": "Twoja faktura elektroniczna za zakup jest już dostępna."
   },
   {
     "label": "legitimate",
     "category": "Sklep internetowy - Faktura elektroniczna",
-    "risk": "none",
     "example": "Sklep wystawił dokument sprzedaży do zamówienia numer 78231."
   },
   {
     "label": "legitimate",
     "category": "Sklep internetowy - Faktura elektroniczna",
-    "risk": "none",
     "example": "Faktura za zrealizowane zamówienie została przesłana elektronicznie."
   },
   {
     "label": "legitimate",
     "category": "Przelew wynagrodzenia - Powiadomienie bankowe",
-    "risk": "none",
     "example": "Na Twoje konto wpłynęło wynagrodzenie od pracodawcy."
   },
   {
     "label": "legitimate",
     "category": "Przelew wynagrodzenia - Powiadomienie bankowe",
-    "risk": "none",
     "example": "Bank potwierdza zaksięgowanie przelewu przychodzącego."
   },
   {
     "label": "legitimate",
     "category": "Przelew wynagrodzenia - Powiadomienie bankowe",
-    "risk": "none",
     "example": "Otrzymałeś przelew wynagrodzenia, środki są dostępne na rachunku."
   },
   {
     "label": "legitimate",
     "category": "Operator energii - Potwierdzenie płatności rachunku",
-    "risk": "none",
     "example": "Płatność za fakturę energetyczną została zaksięgowana."
   },
   {
     "label": "legitimate",
     "category": "Operator energii - Potwierdzenie płatności rachunku",
-    "risk": "none",
     "example": "Potwierdzamy otrzymanie wpłaty za usługę dostawy energii."
   },
   {
     "label": "legitimate",
     "category": "Operator energii - Potwierdzenie płatności rachunku",
-    "risk": "none",
     "example": "Twój rachunek za energię został opłacony prawidłowo."
   },
   {
     "label": "legitimate",
     "category": "Ubezpieczyciel - Potwierdzenie zawarcia polisy",
-    "risk": "none",
     "example": "Twoja polisa ubezpieczeniowa została wystawiona i jest aktywna."
   },
   {
     "label": "legitimate",
     "category": "Ubezpieczyciel - Potwierdzenie zawarcia polisy",
-    "risk": "none",
     "example": "Potwierdzamy zawarcie umowy ubezpieczenia zgodnie z wnioskiem."
   },
   {
     "label": "legitimate",
     "category": "Ubezpieczyciel - Potwierdzenie zawarcia polisy",
-    "risk": "none",
     "example": "Dokument polisy został przygotowany i zapisany na Twoim koncie klienta."
   },
   {
     "label": "legitimate",
     "category": "Komunikator - Powiadomienie o nowej wiadomości",
-    "risk": "none",
     "example": "Masz nową wiadomość od kontaktu w aplikacji."
   },
   {
     "label": "legitimate",
     "category": "Komunikator - Powiadomienie o nowej wiadomości",
-    "risk": "none",
     "example": "Otrzymałeś wiadomość od znajomego. Otwórz komunikator, aby ją przeczytać."
   },
   {
     "label": "legitimate",
     "category": "Komunikator - Powiadomienie o nowej wiadomości",
-    "risk": "none",
     "example": "Nowa wiadomość została dostarczona na Twoje konto komunikatora."
   },
   {
     "label": "legitimate",
     "category": "Google Maps - Udostępnienie lokalizacji",
-    "risk": "none",
     "example": "Kontakt udostępnił Ci swoją lokalizację w Google Maps."
   },
   {
     "label": "legitimate",
     "category": "Google Maps - Udostępnienie lokalizacji",
-    "risk": "none",
     "example": "Otrzymałeś zaproszenie do sprawdzenia lokalizacji znajomego."
   },
   {
     "label": "legitimate",
     "category": "Google Maps - Udostępnienie lokalizacji",
-    "risk": "none",
     "example": "Google Maps informuje o aktywnym udostępnieniu pozycji przez kontakt."
   },
   {
     "label": "legitimate",
     "category": "Kalendarz - Przypomnienie o wydarzeniu",
-    "risk": "none",
     "example": "Przypomnienie: spotkanie rozpocznie się dzisiaj o godzinie 14:00."
   },
   {
     "label": "legitimate",
     "category": "Kalendarz - Przypomnienie o wydarzeniu",
-    "risk": "none",
     "example": "Twój kalendarz informuje o nadchodzącym wydarzeniu za 30 minut."
   },
   {
     "label": "legitimate",
     "category": "Kalendarz - Przypomnienie o wydarzeniu",
-    "risk": "none",
     "example": "Masz zaplanowane spotkanie zgodnie z wpisem w kalendarzu."
   },
   {
     "label": "legitimate",
     "category": "Parking - Potwierdzenie opłaty",
-    "risk": "none",
     "example": "Opłata parkingowa została przyjęta. Czas postoju został zapisany."
   },
   {
     "label": "legitimate",
     "category": "Parking - Potwierdzenie opłaty",
-    "risk": "none",
     "example": "Potwierdzamy zakup biletu parkingowego na wskazany okres."
   },
   {
     "label": "legitimate",
     "category": "Parking - Potwierdzenie opłaty",
-    "risk": "none",
     "example": "Płatność za parking zakończyła się pomyślnie."
   },
   {
     "label": "legitimate",
     "category": "Transport publiczny - Zakup biletu",
-    "risk": "none",
     "example": "Twój bilet komunikacji miejskiej został zakupiony poprawnie."
   },
   {
     "label": "legitimate",
     "category": "Transport publiczny - Zakup biletu",
-    "risk": "none",
     "example": "Potwierdzamy aktywację biletu elektronicznego."
   },
   {
     "label": "legitimate",
     "category": "Transport publiczny - Zakup biletu",
-    "risk": "none",
     "example": "Zakup biletu zakończył się pomyślnie i jest dostępny w aplikacji."
   },
   {
     "label": "legitimate",
     "category": "Siłownia - Potwierdzenie karnetu",
-    "risk": "none",
     "example": "Twój karnet został przedłużony na kolejny miesiąc."
   },
   {
     "label": "legitimate",
     "category": "Siłownia - Potwierdzenie karnetu",
-    "risk": "none",
     "example": "Potwierdzamy aktywację członkostwa w klubie fitness."
   },
   {
     "label": "legitimate",
     "category": "Siłownia - Potwierdzenie karnetu",
-    "risk": "none",
     "example": "Abonament sportowy został odnowiony zgodnie z umową."
   },
   {
     "label": "legitimate",
     "category": "Praca - Powiadomienie firmowe",
-    "risk": "none",
     "example": "Przypominamy o szkoleniu zaplanowanym na poniedziałek."
   },
   {
     "label": "legitimate",
     "category": "Praca - Powiadomienie firmowe",
-    "risk": "none",
     "example": "Firma przesłała informację dotyczącą najbliższego spotkania zespołu."
   },
   {
     "label": "legitimate",
     "category": "Praca - Powiadomienie firmowe",
-    "risk": "none",
     "example": "Twoje zadanie zostało zaktualizowane w systemie firmowym."
   },
   {
     "label": "legitimate",
     "category": "Poczta elektroniczna - Powiadomienie o nowym mailu",
-    "risk": "none",
     "example": "W skrzynce pocztowej znajduje się nowy nieprzeczytany e-mail."
   },
   {
     "label": "legitimate",
     "category": "Poczta elektroniczna - Powiadomienie o nowym mailu",
-    "risk": "none",
     "example": "Twój klient pocztowy wykrył nową wiadomość przychodzącą."
   },
   {
     "label": "legitimate",
     "category": "Serwis streamingowy - Przypomnienie o odnowieniu",
-    "risk": "none",
     "example": "Twoja subskrypcja zostanie automatycznie odnowiona w przyszłym okresie."
   },
   {
     "label": "legitimate",
     "category": "Serwis streamingowy - Przypomnienie o odnowieniu",
-    "risk": "none",
     "example": "Przypominamy o zbliżającym się terminie odnowienia usługi."
   },
   {
     "label": "legitimate",
     "category": "Serwis streamingowy - Przypomnienie o odnowieniu",
-    "risk": "none",
     "example": "Kolejny okres korzystania z abonamentu rozpocznie się zgodnie z ustawieniami konta."
   },
   {
     "label": "legitimate",
     "category": "Firma kurierska - Potwierdzenie odbioru paczki",
-    "risk": "none",
     "example": "Przesyłka została doręczona zgodnie z planem."
   },
   {
     "label": "legitimate",
     "category": "Firma kurierska - Potwierdzenie odbioru paczki",
-    "risk": "none",
     "example": "Kurier potwierdził dostarczenie paczki do odbiorcy."
   },
   {
     "label": "legitimate",
     "category": "Firma kurierska - Potwierdzenie odbioru paczki",
-    "risk": "none",
     "example": "Twoje zamówienie zostało odebrane i dostawa została zakończona."
   },
   {
     "label": "legitimate",
     "category": "Bank - Informacja o zmianie regulaminu",
-    "risk": "none",
     "example": "Bank informuje o aktualizacji regulaminu usług od przyszłego miesiąca."
   },
   {
     "label": "legitimate",
     "category": "Bank - Informacja o zmianie regulaminu",
-    "risk": "none",
     "example": "Nowa wersja dokumentów bankowych jest dostępna w systemie."
   },
   {
     "label": "legitimate",
     "category": "Bank - Informacja o zmianie regulaminu",
-    "risk": "none",
     "example": "Przekazujemy informację o zmianach warunków korzystania z usług."
   },
   {
     "label": "legitimate",
     "category": "Bank - Powiadomienie o logowaniu",
-    "risk": "none",
     "example": "Zalogowano się do bankowości internetowej z Twojego urządzenia."
   },
   {
     "label": "legitimate",
     "category": "Bank - Powiadomienie o logowaniu",
-    "risk": "none",
     "example": "Bank potwierdza nowe logowanie do Twojego konta."
   },
   {
     "label": "legitimate",
     "category": "Bank - Powiadomienie o logowaniu",
-    "risk": "none",
     "example": "Otrzymujesz informację o poprawnym dostępie do bankowości online."
   },
   {
     "label": "legitimate",
     "category": "Sklep internetowy - Potwierdzenie zwrotu produktu",
-    "risk": "none",
     "example": "Twój zwrot został zaakceptowany. Środki zostaną przekazane zgodnie z procedurą."
   },
   {
     "label": "legitimate",
     "category": "Sklep internetowy - Potwierdzenie zwrotu produktu",
-    "risk": "none",
     "example": "Sklep potwierdza przyjęcie zwróconego produktu i rozpoczęcie zwrotu pieniędzy."
   },
   {
     "label": "legitimate",
     "category": "Sklep internetowy - Potwierdzenie zwrotu produktu",
-    "risk": "none",
     "example": "Proces zwrotu zamówienia został zakończony pozytywnie."
   },
   {
     "label": "legitimate",
     "category": "Operator telekomunikacyjny - Zużycie pakietu internetu",
-    "risk": "none",
     "example": "Wykorzystano 80% dostępnego pakietu internetu mobilnego."
   },
   {
     "label": "legitimate",
     "category": "Operator telekomunikacyjny - Zużycie pakietu internetu",
-    "risk": "none",
     "example": "Operator informuje o zbliżającym się limicie danych."
   },
   {
     "label": "legitimate",
     "category": "Operator telekomunikacyjny - Zużycie pakietu internetu",
-    "risk": "none",
     "example": "Pozostało niewiele transferu danych w aktualnym pakiecie."
   },
   {
     "label": "legitimate",
     "category": "Aplikacja bankowa - Potwierdzenie dodania odbiorcy",
-    "risk": "none",
     "example": "Nowy odbiorca przelewu został dodany do Twojej bankowości."
   },
   {
     "label": "legitimate",
     "category": "Aplikacja bankowa - Potwierdzenie dodania odbiorcy",
-    "risk": "none",
     "example": "Bank potwierdza zapisanie danych nowego odbiorcy płatności."
   },
   {
     "label": "legitimate",
     "category": "Aplikacja bankowa - Potwierdzenie dodania odbiorcy",
-    "risk": "none",
     "example": "Dodanie odbiorcy rachunku zakończyło się pomyślnie."
   },
   {
     "label": "legitimate",
     "category": "Karta płatnicza - Potwierdzenie płatności",
-    "risk": "none",
     "example": "Płatność kartą na kwotę 75 zł została zrealizowana."
   },
   {
     "label": "legitimate",
     "category": "Karta płatnicza - Potwierdzenie płatności",
-    "risk": "none",
     "example": "Potwierdzamy wykonanie transakcji kartą w sklepie."
   },
   {
     "label": "legitimate",
     "category": "Karta płatnicza - Potwierdzenie płatności",
-    "risk": "none",
     "example": "Twoja płatność kartowa została poprawnie zaakceptowana."
   },
   {
     "label": "legitimate",
     "category": "Aplikacja zakupowa - Powiadomienie o promocji",
-    "risk": "none",
     "example": "Nowa promocja jest dostępna w aplikacji sklepu."
   },
   {
     "label": "legitimate",
     "category": "Aplikacja zakupowa - Powiadomienie o promocji",
-    "risk": "none",
     "example": "Sprawdź aktualne oferty przygotowane dla użytkowników konta."
   },
   {
     "label": "legitimate",
     "category": "Aplikacja zakupowa - Powiadomienie o promocji",
-    "risk": "none",
     "example": "W aplikacji pojawiły się nowe produkty objęte rabatem."
   },
   {
     "label": "legitimate",
     "category": "Szpital - Informacja organizacyjna",
-    "risk": "none",
     "example": "Szpital informuje o zmianie godziny planowanego przyjęcia."
   },
   {
     "label": "legitimate",
     "category": "Szpital - Informacja organizacyjna",
-    "risk": "none",
     "example": "Twoja wizyta została przesunięta na nowy termin zgodnie z ustaleniami."
   },
   {
     "label": "legitimate",
     "category": "Szpital - Informacja organizacyjna",
-    "risk": "none",
     "example": "Placówka medyczna przekazuje aktualne informacje dotyczące wizyty."
   },
   {
     "label": "legitimate",
     "category": "Firma kurierska - Przewidywany czas dostawy",
-    "risk": "none",
     "example": "Kurier przewidywany jest dzisiaj między godziną 12:00 a 14:00."
   },
   {
     "label": "legitimate",
     "category": "Firma kurierska - Przewidywany czas dostawy",
-    "risk": "none",
     "example": "Twoja przesyłka zostanie doręczona w zaplanowanym przedziale czasowym."
   },
   {
     "label": "legitimate",
     "category": "Firma kurierska - Przewidywany czas dostawy",
-    "risk": "none",
     "example": "Firma kurierska przekazuje orientacyjny termin dostarczenia paczki."
   },
   {
     "label": "legitimate",
     "category": "Urząd - Przypomnienie o terminie sprawy",
-    "risk": "none",
     "example": "Przypominamy o zbliżającym się terminie uzupełnienia dokumentów."
   },
   {
     "label": "legitimate",
     "category": "Urząd - Przypomnienie o terminie sprawy",
-    "risk": "none",
     "example": "Urząd informuje o konieczności dostarczenia wymaganych załączników."
   },
   {
     "label": "legitimate",
     "category": "Urząd - Przypomnienie o terminie sprawy",
-    "risk": "none",
     "example": "Termin wykonania czynności administracyjnej upływa w przyszłym tygodniu."
   },
   {
     "label": "legitimate",
     "category": "System konta - Potwierdzenie zmiany hasła",
-    "risk": "none",
     "example": "Twoje hasło zostało pomyślnie zmienione."
   },
   {
     "label": "legitimate",
     "category": "System konta - Potwierdzenie zmiany hasła",
-    "risk": "none",
     "example": "System potwierdza aktualizację hasła do konta użytkownika."
   },
   {
     "label": "legitimate",
     "category": "System konta - Potwierdzenie zmiany hasła",
-    "risk": "none",
     "example": "Zmiana hasła zakończyła się powodzeniem. Jeśli to nie Ty, skontaktuj się z pomocą."
   }
 ]

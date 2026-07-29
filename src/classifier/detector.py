@@ -40,7 +40,6 @@ class PhishingClassifier:
         for scenario in scenarios:
             label = scenario.get("label", "phishing")
             category = scenario.get("category", "General")
-            risk = scenario.get("risk", "medium")
             
             for example in scenario.get("examples", []):
                 curr_vec = self.embedder.get_embedding(example, is_query=False)
@@ -63,7 +62,6 @@ class PhishingClassifier:
                     accepted_metadata.append({
                         "label": label,
                         "category": category,
-                        "risk": risk,
                         "example": example
                     })
 
@@ -93,8 +91,7 @@ class PhishingClassifier:
         phishing_sims = [sim for meta, sim in search_results if meta["label"] == "phishing"]
         legitimate_sims = [sim for meta, sim in search_results if meta["label"] == "legitimate"]
 
-    
-       # Uśredniamy do 2 najlepszych trafień w danej kategorii z pobranej piątki
+        # Uśredniamy do 2 najlepszych trafień w danej kategorii z pobranej piątki
         phishing_score = float(np.mean(phishing_sims[:2])) if phishing_sims else 0.0
         legitimate_score = float(np.mean(legitimate_sims[:2])) if legitimate_sims else 0.0
 
