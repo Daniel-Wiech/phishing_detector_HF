@@ -28,11 +28,6 @@ Model embeddingowy (`intfloat/multilingual-e5-large`) jest pobierany automatyczn
 
 - Python 3.11+
 - [Poetry](https://python-poetry.org/docs/#installation)
-- Do uruchomienia skryptu ewaluacyjnego (`run_evaluation.py`) dodatkowo wymagany jest `scikit-learn` — nie jest on zadeklarowany w `pyproject.toml`, więc trzeba doinstalować go ręcznie:
-
-  ```bash
-  poetry run pip install scikit-learn
-  ```
 
 ## Instalacja
 
@@ -144,8 +139,8 @@ Baza zawiera obecnie **100 scenariuszy** (kategorii ataków lub wiadomości lega
   "description": "Próba wyłudzenia danych logowania pod pretekstem zwrotu nadpłaty za energię.",
   "risk": "high",
   "examples": [
-    "PGE: Wykryliśmy nadpłatę 120 zł na Twoim koncie. Zaloguj się, aby odebrać zwrot.",
-    "Masz niewykorzystaną nadpłatę za prąd w PGE w wysokości 145 PLN. Kliknij link i potwierdź dane."
+    "Wykryliśmy nadpłatę [KWOTA] zł na Twoim koncie. Zaloguj się, aby odebrać zwrot.",
+    "Masz niewykorzystaną nadpłatę za prąd w PGE w wysokości [KWOTA] PLN. Kliknij link i potwierdź dane."
   ]
 }
 ```
