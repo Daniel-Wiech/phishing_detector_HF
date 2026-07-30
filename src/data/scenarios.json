@@ -436,7 +436,6 @@
     "label": "phishing",
     "category": "Steam - Kradzież konta gracza",
     "description": "Próba przejęcia konta poprzez fałszywe alerty dotyczące bezpieczeństwa.",
-    
     "examples": [
       "Steam: Twoje konto zostało zgłoszone. Zaloguj się, aby uniknąć blokady.",
       "Wykryto podejrzaną aktywność na Steam. Potwierdź właściciela konta.",
